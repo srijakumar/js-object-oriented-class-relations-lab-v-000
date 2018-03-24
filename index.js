@@ -26,7 +26,7 @@ class Driver{
 
 
 class Passenger{
-  constructor(passenger){
+  constructor(name){
     name = this.name;
     passengerId++ = this.id;
     store.passengers.push(this);
