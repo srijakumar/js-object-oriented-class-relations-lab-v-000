@@ -23,3 +23,13 @@ class Driver{
   }
 
 }
+
+
+class Passenger{
+  constructor(passenger){
+    name = this.name;
+    passengerId++ = this.id;
+    store.passengers.push(this);
+  }
+
+}
