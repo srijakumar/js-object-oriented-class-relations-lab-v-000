@@ -45,3 +45,13 @@ drivers (){
 }
 
 }
+
+class Trip {
+  constructor(driver, passenger){
+    this.driverId = driver.id;
+    this.passengerId = passenger.id;
+    this.trip = tripId++;
+    store.trip.push(this);
+  }
+
+}
