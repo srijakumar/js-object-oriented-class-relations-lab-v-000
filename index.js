@@ -32,4 +32,10 @@ class Passenger {
     store.passengers.push(this);
   }
 
+trips(){
+  return store.trips.filter(passenger =>){
+    return trip.passengerId == this.Id;
+  }
+}
+
 }
