@@ -52,6 +52,13 @@ class Trip {
     this.passengerId = passenger.id;
     this.trip = tripId++;
     store.trips.push(this);
+
+    driver(){
+      return store.driver.filter(trip => {
+        return trip.driverId == this.id;
+      })
+    }
+
   }
 
 }
