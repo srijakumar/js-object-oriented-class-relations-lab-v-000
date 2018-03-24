@@ -38,4 +38,10 @@ trips(){
   });
 }
 
+drivers (){
+  return store.trips.filter(driver => {
+    return driver.passengerId == this.id;
+  });
+}
+
 }
